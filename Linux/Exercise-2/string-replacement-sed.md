@@ -10,7 +10,8 @@
 
 - identify the word count of `the` in file
 - `grep -we "the" /home/BSD.txt | wc -l`
-- to delete `sed "s/\bthe\b//g" /home/BSD.txt > /home/BSD_DELETE.txt`
+- to delete lines of the word  `sed "/code/d" /home/BSD.txt > /home/BSD_DELETE.txt`
+- to delete only word `sed "s/\bocde\b//g" /home/BSD.txt > /home/BSD_DELETE.txt`
 - check the count
 - to replace `sed "s/the/their/g" /home/BSD.txt > /home/BSD_REPLACE.txt`
 - check the count and replacement.
